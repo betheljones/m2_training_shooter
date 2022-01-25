@@ -1,0 +1,3 @@
+<launch>
+    <node name="m2_training_shooter" pkg="m2_training_shooter" type="m2_training_shooter_node" />
+</launch>
