@@ -1,3 +1,5 @@
 <launch>
-    <node name="m2_training_shooter" pkg="m2_training_shooter" type="m2_training_shooter_node" />
+    <node name="pneumatic_node" pkg="m2_training_shooter" type="pneumatic_node" />
+    <node name="servo_node" pkg="m2_training_shooter" type="servo_node.py" />
+    <!-- <node name="m2_training_shooter" pkg="m2_training_shooter" type="controller_node.py" /> -->
 </launch>
